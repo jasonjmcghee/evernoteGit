@@ -1,0 +1,9 @@
+#!/bin/bash
+
+git commit "-m $1"
+
+COMMIT=`echo \`git log | head -1\``
+REST=`echo \`git log | head -6 | tail -2\``
+DATE=`echo \`git log | head -6 | grep 'Date'\``
+
+python /usr/bin/first.py $COMMIT $DATE $REST
