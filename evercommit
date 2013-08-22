@@ -6,4 +6,4 @@ COMMIT=`echo \`git log | head -1\``
 REST=`echo \`git log | head -6 | tail -2\``
 DATE=`echo \`git log | head -6 | grep 'Date'\``
 
-python /usr/bin/first.py $COMMIT $DATE $REST
+python /usr/bin/evernoteCommit.py $COMMIT $DATE $REST
