@@ -1,4 +1,4 @@
-Simply copy the bash script and evernoteCommit.py to /usr/bin/ directory
+Simply copy evercommit and evernoteCommit.py to /usr/bin/ directory
 and use it in place of "git commit -m ...".
 
 Usage:
